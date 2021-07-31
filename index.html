@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>DojoWeather</title>
+</head>
+<body>
+
+    <!-- nav bar(s) -->
+
+    <nav>
+        <div class="navbar mainNavBar">
+            <div class="container">
+                <h1 class="navbar-brand col-5 text-white pageName">DojoWeather</h1>
+                <a href="#" class="nav-item col-2 text-white navLinks">Burbank</a>
+                <a href="#" class="nav-item col-2 text-white navLinks">Chicago</a>
+                <a href="#" class="nav-item col-2 text-white navLinks">Dallas</a>
+                </div>
+            </div>
+        <div class="navbar m-3">
+            <div class="container myBorder">
+                <h2 class="navbar-brand col-5 location">San Jose</h2>
+                <form class="form-line">
+                    <label for="Farenheit or Celsius">Show temperature in</label>
+                    <select name="Farenheit or Celsius" id="forc">
+                        <option value="Farenheit">°F</option>
+                        <option value="Celsius">°C</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main content -->
+
+    <main>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg m-5 weatherBox">
+                    <h2 class="m-2">Today</h2>
+                    <img src="/images/some_rain.png" alt="Image depicting rain">
+                    <p class="tempDescription">some rain</p>
+                    <div class="temperatures">
+                        <div class="tempHigh">50°</div>
+                        <div class="tempLow">40°</div>
+                    </div>
+                </div>
+                <div class="col-lg m-5 weatherBox">
+                    <h2 class="m-2">Tomorrow</h2>
+                    <img src="/images/some_sun.png" alt="Image depicting sun">
+                    <p class="tempDescription">some sun</p>
+                    <div class="temperatures">
+                        <div class="tempHigh">50°</div>
+                        <div class="tempLow">40°</div>
+                    </div>
+                </div>
+                <div class="col-lg m-5 weatherBox">
+                    <h2 class="m-2">Friday</h2>
+                    <img src="/images/some_clouds.png" alt="Image depicting clouds">
+                    <p class="tempDescription">some clouds</p>
+                    <div class="temperatures">
+                        <div class="tempHigh">50°</div>
+                        <div class="tempLow">40°</div>
+                    </div>
+                </div>
+                <div class="col-lg m-5 weatherBox">
+                    <h2 class="m-2">Saturday</h2>
+                    <img src="/images/some_sun.png" alt="Image depicting sun">
+                    <p class="tempDescription">some sun</p>
+                    <div class="temperatures">
+                        <div class="tempHigh">50°</div>
+                        <div class="tempLow">40°</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- cookie bar -->
+
+    <div class="cookieBar">
+        <img src="/images/cookie.png" alt="Image of a cookie" class="cookieLogo">
+        <div class="cookie">
+            <p class="cookieH"><b>Stop! Cookie time</b></p>
+            <p class="cookieP">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read more</a></p>
+        </div>
+        <button class="acceptButton btn">I accept</button>
+    </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

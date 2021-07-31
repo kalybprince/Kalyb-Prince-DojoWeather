@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* nav */
+
+.mainNavBar {
+    background-color: rgb(159, 197, 248);
+}
+
+/* weather boxes */
+
+.weatherBox > img {
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.weatherBox {
+    background-color: rgb(238, 238, 238);
+    height: 35vh;
+}
+.pageName {
+    font-size: 3rem;
+}
+.navLinks {
+    font-size: 2rem;
+}
+.location {
+    font-size: 2.5rem;
+}
+.myBorder {
+    border-bottom: black solid 1px;
+}
+.tempDescription {
+    margin: 20px;
+}
+.temperatures{
+    display: flex;
+}
+.tempHigh {
+    flex: 1;
+    color: red;
+    font-size: 1.5rem;
+}
+.tempLow {
+    flex: 1;
+    color: blue;
+    font-size: 1.5rem;
+}
+
+/* cookie bar */
+
+.cookieBar {
+    display: flex;
+    position: fixed;
+    align-items: center;
+    bottom: 0;
+    left: 50%;
+    margin-bottom: 10px;
+    transform: translateX(-50%);
+    background-color: rgb(238, 238, 238);
+    border: 2px solid black;
+}
+.cookieLogo {
+    flex: 1;
+    margin: 20px;
+    height: 75px;
+    width: 75px;
+}
+.cookieH {
+    font-size: 1.5rem;
+}
+.cookieP {
+    font-size: 1rem;
+}
+.acceptButton {
+    background-color: rgb(159, 197, 248);
+    border: 2px solid black;
+    border-radius: 0;
+    box-shadow: 3px 3px 0px 0px;
+    width: 20%;
+    margin: 20px;
+}
